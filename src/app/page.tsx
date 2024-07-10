@@ -95,8 +95,8 @@ export default function Home() {
         <input
           type="number"
           name="price"
-          value={taskDetails.price}
           onChange={handleInputChange}
+          placeholder="Task Price"
         />
         <label>
           Avaible:
